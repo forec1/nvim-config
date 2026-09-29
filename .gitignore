@@ -1,0 +1,4 @@
+.DS_Store
+.nvimlog
+# Machine-specific settings, see lua/local.example.lua
+lua/local.lua
