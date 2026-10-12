@@ -296,6 +296,15 @@ return {
         },
     },
     {
+        "MeanderingProgrammer/render-markdown.nvim",
+        ft = { "markdown" },
+        dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
+        opts = {},
+        keys = {
+            { "<leader>mp", "<cmd>RenderMarkdown toggle<cr>", ft = "markdown", desc = "Markdown render toggle" },
+        },
+    },
+    {
         "folke/flash.nvim",
         event = "VeryLazy",
         ---@type Flash.Config
